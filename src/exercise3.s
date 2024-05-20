@@ -14,6 +14,7 @@ Loop:
     addi $t2, $t2, 1
     sub $t0, $t0, $t1
     bge $t0, $t1, Loop
+    nop
 
 End:
 .close

@@ -14,7 +14,7 @@ Loop:
     addi $t0, $t0, 1
     add $t1, $t1, $t0
     blt $t0, 10, Loop
-
+    nop
 
 
 End:
